@@ -39,7 +39,7 @@ public class T6_dropdown_without_select {
         searchButton.click();
 
         WebElement statusButton = driver.findElement(By.xpath("(//label[.='Status']/../div/following-sibling::div)[2]"));
-        statusButton.click();
+        //statusButton.click();
 
         Thread.sleep(3000);
         WebElement inProgress = driver.findElement(By.xpath("//div[contains(text(),'In progress')]"));
