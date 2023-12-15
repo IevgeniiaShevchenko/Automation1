@@ -23,20 +23,16 @@ public class T0_iframe_practice extends TestBase {
         String actualLeft = left.getText();
         Assert.assertEquals(actualLeft.trim(), "LEFT");
     }
-
     @Test
     public void right(){
-
     }
 
     @Test
     public void middle(){
-
     }
 
     @Test
     public void bottom(){
-
     }
 
 
