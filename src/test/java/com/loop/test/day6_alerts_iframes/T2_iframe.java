@@ -24,7 +24,7 @@ public class T2_iframe extends TestBase {
 
     @Test
     public void iframeTest(){
-        driver.get("https://loopcamp.vercel.app/iframe.html");;
+        driver.get("https://loopcamp.vercel.app/iframe.html");
 //        WebElement iframe = driver.findElement(By.xpath("//iframe[@id='mce_0_ifr']")); // by xpath
 //        driver.switchTo().frame(iframe);
 
