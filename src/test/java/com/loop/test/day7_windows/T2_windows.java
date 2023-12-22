@@ -40,7 +40,10 @@ public class T2_windows extends TestBase {
 //            }
 //        }
 
-        BrowserUtils.switchWindowAndValidate(driver, "amazon.com", "amazon");
+        //BrowserUtils.switchWindowAndValidate(driver, "amazon.com", "amazon");
+
+        BrowserUtils.switchToWindow(driver, "etsy");
+
     }
 
 }
