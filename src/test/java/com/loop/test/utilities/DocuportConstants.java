@@ -28,7 +28,7 @@ public class DocuportConstants {
     public static final String EMAIL_FOR_RESET_PASSWORD = "forgotpasswordg1@gmail.com";
 
 
-
+    public static final String PASSWORD = "Group2";
 }
 
 
