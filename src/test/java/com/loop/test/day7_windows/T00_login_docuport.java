@@ -12,5 +12,14 @@ public class T00_login_docuport extends TestBase {
         DocuportUtils.login(driver, DocuportConstants.CLIENT);
         DocuportUtils.logOut(driver);
 
+        DocuportUtils.login(driver, DocuportConstants.ADVISOR);
+        DocuportUtils.logOut(driver);
+
+        DocuportUtils.login(driver, DocuportConstants.EMPLOYEE);
+        DocuportUtils.logOut(driver);
+
+        DocuportUtils.login(driver, DocuportConstants.SUPERVISOR);
+        DocuportUtils.logOut(driver);
+
     }
 }
