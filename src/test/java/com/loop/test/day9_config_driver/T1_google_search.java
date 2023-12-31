@@ -8,9 +8,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.Test;
 
-import static com.loop.test.utilities.Driver.driver;
-import static com.loop.test.utilities.Driver.getDriver;
-import static org.testng.AssertJUnit.assertEquals;
+import static org.testng.Assert.assertEquals;
+
 
 public class T1_google_search {
 
