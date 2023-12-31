@@ -20,7 +20,7 @@ public class Driver {
     static - run before everything else and also use in static method
      */
 
-    public static WebDriver driver;
+    private static WebDriver driver;
 
     /*
     reusable method that will return the same driver instance every time called
@@ -39,10 +39,10 @@ public class Driver {
                     WebDriverManager.chromedriver().setup();
                     driver = new ChromeDriver();
                     break;
-                case "firefox":
-                    WebDriverManager.firefoxdriver().setup();
-                    driver = new FirefoxDriver();
-                    break;
+//                case "firefox":
+//                    WebDriverManager.firefoxdriver().setup();
+//                    driver = new FirefoxDriver();
+//                    break;
             }
             driver.manage().window().maximize();
             driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
