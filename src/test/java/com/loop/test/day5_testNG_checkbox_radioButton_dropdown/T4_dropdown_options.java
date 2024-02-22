@@ -4,6 +4,7 @@ import com.loop.test.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.Wait;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -50,6 +51,9 @@ public class T4_dropdown_options {
 
         dropdown.selectByVisibleText("White");
         Assert.assertEquals(dropdown.getFirstSelectedOption().getText(), "White");
+        dropdown.deselectByVisibleText("White");
+
+
 
     }
 }

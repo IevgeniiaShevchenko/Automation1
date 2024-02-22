@@ -39,6 +39,7 @@ public class T3_drag_drop {
         WebElement creditAmount = Driver.getDriver().findElement(By.id("amt8"));
         action.dragAndDrop(fiveK, creditAmount).perform();
 
+
         WebElement successMessage = Driver.getDriver().findElement(By.xpath("//a[contains(.,'Perfect')]"));
 
         String expected = "Perfect!";
